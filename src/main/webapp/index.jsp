@@ -6,12 +6,10 @@
 </head>
 <%
   WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(application);
-  pageContext.setAttribute("mensaje", context.getBean("message"));
+  pageContext.setAttribute("beanMessage", context.getBean("message"));
 %>
-
-<c:out value="${mensaje.text}"/>
-
 <body>
-Ya está levantado
+It has been started.<BR/>
+<c:out value="${beanMessage.text}"/>
 </body>
 </html>
