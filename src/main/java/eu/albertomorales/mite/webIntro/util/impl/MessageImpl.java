@@ -1,6 +1,6 @@
-package eu.albertomorales.mite.webIntro.impl;
+package eu.albertomorales.mite.webIntro.util.impl;
 
-import eu.albertomorales.mite.webIntro.Message;
+import eu.albertomorales.mite.webIntro.util.Message;
 
 public class MessageImpl implements Message {
 

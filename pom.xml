@@ -8,7 +8,7 @@
   <name>webIntro Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <build>
-    <finalName>webIntro</finalName>  
+    <finalName>webIntro</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -17,7 +17,7 @@
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
-          <encoding>ISO-8859-1</encoding>        
+          <encoding>ISO-8859-1</encoding>
           <verbose>true</verbose>
           <fork>true</fork>
           <executable>${JAVA_HOME}/bin/javac</executable>
@@ -25,7 +25,7 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>    
+  </build>
   <dependencies>
     <dependency>
     	<groupId>org.testng</groupId>
@@ -51,5 +51,16 @@
         <version>4.1.2.RELEASE</version>
         <scope>runtime</scope>
     </dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>4.1.2.RELEASE</version>
+	</dependency>
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>3.1.0</version>
+	</dependency>
   </dependencies>
 </project>

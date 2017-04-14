@@ -1,4 +1,4 @@
-package eu.albertomorales.mite.webIntro;
+package eu.albertomorales.mite.webIntro.util;
 
 public interface Message {
 
